@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 372.0, 323.0 ],
+		"rect" : [ 597.0, 147.0, 372.0, 323.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -21,8 +21,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 188.0, 163.0, 159.0, 38.0 ],
-					"presentation_linecount" : 2,
-					"text" : "arguments: \nprobability (0-1.)"
+					"text" : "Arguments: \nprobability (0-1.)"
 				}
 
 			}
@@ -46,7 +45,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 296.0, 166.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "made as an example, pl 2025"
 				}
 
@@ -59,7 +57,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 212.0, 212.0, 153.0, 89.0 ],
-					"presentation_linecount" : 7,
 					"text" : "TODO:\n- add inlet for changing probability\n- inlet and outlet comments\n- second outlet for filtered bangs?"
 				}
 
@@ -71,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 47.0, 46.0, 150.0, 62.0 ],
+					"patching_rect" : [ 47.0, 46.0, 151.0, 62.0 ],
 					"text" : "Randomly passes through a bang. Probability can be adjusted via argument (0-1)."
 				}
 
@@ -150,7 +147,7 @@
 
 			}
  ],
-		"originid" : "pat-5",
+		"originid" : "pat-59",
 		"dependency_cache" : [ 			{
 				"name" : "el.randbang.maxpat",
 				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers",
