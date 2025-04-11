@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 359.0, 223.0, 1603.0, 1045.0 ],
+		"rect" : [ 359.0, 196.0, 1603.0, 1045.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -136,7 +136,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 1000.0, 780.0 ],
+						"rect" : [ 59.0, 125.0, 1000.0, 780.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
 						"visible" : 1,
 						"boxes" : [ 							{
@@ -429,7 +429,7 @@
 
 											}
  ],
-										"originid" : "pat-677"
+										"originid" : "pat-10"
 									}
 ,
 									"patching_rect" : [ 50.0, 172.499993085861206, 151.0, 22.0 ],
@@ -741,7 +741,7 @@
 
 							}
  ],
-						"originid" : "pat-675"
+						"originid" : "pat-8"
 					}
 ,
 					"patching_rect" : [ 1815.873044013977051, 782.539694666862488, 150.0, 22.0 ],
@@ -808,7 +808,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1650.293676376342773, 60.698116540908813, 151.0, 100.0 ],
-					"presentation_linecount" : 7,
 					"text" : "Damit schaltet man den Factory Mode aus, der einen nicht die Freiheit gibt, das Gerät so zu konfigurieren wie man es will, ab cc 8 wechselt man in den Factory Mode"
 				}
 
@@ -821,7 +820,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1942.198294162750244, 373.584923028945923, 160.0, 116.0 ],
+					"patching_rect" : [ 1942.198294162750244, 373.584923028945923, 161.0, 116.0 ],
 					"text" : "Mit diesen Werten kann man die LED Anzeigen des Controllers steuern, ein visuelles Feedback für die Steuerung eines Patches den man zb Live spielt einrichten."
 				}
 
@@ -835,7 +834,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1633.9524085521698, 196.946578502655029, 195.0, 42.0 ],
-					"presentation_linecount" : 2,
 					"text" : "To Controller\nCC Values",
 					"textjustification" : 1
 				}
@@ -862,7 +860,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1906.349235892295837, 71.698116540908813, 195.0, 78.0 ],
-					"presentation_linecount" : 3,
 					"text" : "To Controller\nNote On Off / Velocity / Midi Ch\n",
 					"textjustification" : 1
 				}
@@ -1114,13 +1111,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-38",
-					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 728.031651794910431, 443.939354777336121, 105.0, 35.0 ],
-					"text" : "\"Launch Control XL\""
+					"patching_rect" : [ 728.031651794910431, 443.939354777336121, 105.0, 22.0 ],
+					"text" : "\"AU DLS Synth 1\""
 				}
 
 			}
@@ -2368,7 +2364,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"items" : [ "AU DLS Synth 1", ",", "IAC-Treiber Max 3", ",", "IAC-Treiber Max 4", ",", "IAC-Treiber Max 5", ",", "IAC-Treiber Max 6", ",", "IAC-Treiber Bus 5", ",", "Launch Control XL", ",", "Launch Control XL HUI", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "IAC-Treiber Max 3", ",", "IAC-Treiber Max 4", ",", "IAC-Treiber Max 5", ",", "IAC-Treiber Max 6", ",", "IAC-Treiber Bus 5", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3248,7 +3244,7 @@
 
 			}
  ],
-		"originid" : "pat-553",
+		"originid" : "pat-6",
 		"parameters" : 		{
 			"obj-35" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-41" : [ "live.gain~[1]", "live.gain~", 0 ],
