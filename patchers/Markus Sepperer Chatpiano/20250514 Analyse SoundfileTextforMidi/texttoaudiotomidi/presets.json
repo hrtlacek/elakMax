@@ -1,0 +1,60 @@
+{
+	"pattrstorage" : 	{
+		"name" : "basic",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"attrui" : [ "fftsettings", 2048, -1, -1 ],
+					"attrui[1]" : [ "frequnit", 0 ],
+					"attrui[2]" : [ "magunit", 0 ],
+					"attrui[3]" : [ "order", 0 ],
+					"attrui[4]" : [ "numpeaks", 16 ],
+					"attrui[6]" : [ "latency", 2048 ],
+					"jsui" : [  ],
+					"number[25]" : [ 2 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "Text INPUT 0001 [2025-05-13 222515].wav",
+										"filename" : "Text INPUT 0001 [2025-05-13 222515].wav",
+										"filekind" : "audiofile",
+										"id" : "u482001525",
+										"loop" : 1,
+										"content_state" : 										{
+											"loop" : 1
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"umenu" : [ 2 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"attrui" : [  ],
+					"attrui[1]" : [  ],
+					"attrui[2]" : [  ],
+					"attrui[3]" : [  ],
+					"attrui[4]" : [  ],
+					"attrui[6]" : [  ],
+					"jsui" : [  ],
+					"number[25]" : [ 1.3 ],
+					"playlist~" : [  ],
+					"umenu" : [  ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
