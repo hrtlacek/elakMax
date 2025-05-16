@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1497.0, 1059.0 ],
+		"rect" : [ 134.0, 87.0, 1497.0, 1028.0 ],
 		"default_fontsize" : 10.0,
 		"default_fontname" : "Arial Bold",
 		"gridsize" : [ 8.0, 8.0 ],
@@ -19,6 +19,31 @@
 		"style" : "Sepperer-1",
 		"subpatcher_template" : "Hyperlooper 1.amxd_template",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1514.0, 665.0, 50.0, 20.0 ],
+					"text" : "0.016791"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1445.0, 573.0, 50.0, 31.0 ],
+					"text" : "0.005597 0.005597 0.005597 0. 0."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
@@ -127,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1632.0, 524.0, 63.0, 20.0 ],
+					"patching_rect" : [ 1632.0, 524.0, 63.0, 31.0 ],
 					"text" : "zl stream 50"
 				}
 
@@ -173,6 +198,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
+					"order" : 0,
+					"source" : [ "obj-111", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 1 ],
+					"order" : 1,
 					"source" : [ "obj-111", 0 ]
 				}
 
@@ -187,6 +221,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-111", 0 ],
+					"order" : 0,
+					"source" : [ "obj-113", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"order" : 1,
 					"source" : [ "obj-113", 0 ]
 				}
 
@@ -199,7 +242,7 @@
 
 			}
  ],
-		"originid" : "pat-506",
+		"originid" : "pat-1348",
 		"styles" : [ 			{
 				"name" : "Sepperer",
 				"default" : 				{
