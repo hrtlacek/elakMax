@@ -88,7 +88,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 483.0, 409.0, 150.0, 33.0 ],
+					"patching_rect" : [ 483.0, 409.0, 153.0, 33.0 ],
 					"text" : "Trennung von Note On Off durch Ampl Schwellwert"
 				}
 
@@ -298,7 +298,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 858.0, 50.0, 22.0 ],
-					"text" : "0 0"
+					"text" : "31 0"
 				}
 
 			}
@@ -334,7 +334,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 340.987964630126953, 936.150634288787842, 50.0, 22.0 ],
-					"text" : "0 0"
+					"text" : "31 0"
 				}
 
 			}
@@ -394,7 +394,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 280.409649729728699, 770.0, 105.0, 22.0 ],
-					"text" : "0"
+					"text" : "31"
 				}
 
 			}
@@ -1016,7 +1016,7 @@
 
 			}
  ],
-		"originid" : "pat-1310"
+		"originid" : "pat-1446"
 	}
 
 }
