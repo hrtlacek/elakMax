@@ -1,8 +1,8 @@
 {
 	"name" : "texttoaudiotomidi",
 	"version" : 1,
-	"creationdate" : 3830080970,
-	"modificationdate" : 3830080970,
+	"creationdate" : 3830194793,
+	"modificationdate" : 3830194793,
 	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -22,11 +22,15 @@
 
 		}
 ,
-		"code" : 		{
+		"data" : 		{
 
 		}
 ,
 		"externals" : 		{
+
+		}
+,
+		"other" : 		{
 
 		}
 

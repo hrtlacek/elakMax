@@ -10,9 +10,33 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 201.0, 163.0, 1341.0, 952.0 ],
+		"rect" : [ 415.0, 87.0, 1341.0, 1028.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"linecount" : 4,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 181.0, 402.0, 105.0, 60.0 ],
+					"text" : "Midi Noten Flügel\npasst das zum\nRHEA PlayerPiano ?"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 302.409649729728699, 429.0, 70.0, 22.0 ],
+					"text" : "split 20 108"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-34",
 					"maxclass" : "newobj",
@@ -298,7 +322,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 660.0, 858.0, 50.0, 22.0 ],
-					"text" : "3 30"
+					"text" : "52 27"
 				}
 
 			}
@@ -334,7 +358,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 340.987964630126953, 936.150634288787842, 50.0, 22.0 ],
-					"text" : "3 0"
+					"text" : "49 0"
 				}
 
 			}
@@ -389,13 +413,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-219",
-					"linecount" : 31,
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 728.0, 109.0, 424.0 ],
-					"text" : "3 3 3 3 3 3 116 116 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 92 92 92 91 91 91 91 91 91 95 95 3 3 3 3 3 3 3 95 95 3 3 3 3 3 3 3 3 3 3 103 103 103 102 102 102 102 3 3 3 3 3 3 3 3 93 93 3 3 3 3 3 3 3 3 3 3 3 98 98 98 98 98 98 98 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 91 91 91 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 92 92 91 91 91 91 93 93 93 99 99 3 3 3 3 3 3 92 92 90 90 89 89 89 89 89 3 3 3 3 3 3 3 3 3 3 95 95 95 97 97 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 92 92 91 91 91 91 3"
+					"patching_rect" : [ 190.0, 736.0, 131.409649729728699, 35.0 ],
+					"text" : "50 49 50 49 51 49 49 49"
 				}
 
 			}
@@ -455,17 +479,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 922.0, 545.578333377838135, 150.0, 20.0 ],
 					"text" : "velocity"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-33",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 368.228982895612717, 473.28917407989502, 73.626400053501129, 20.0 ],
-					"text" : "freq"
 				}
 
 			}
@@ -604,24 +617,12 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-42",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.409649729728699, 472.28917407989502, 67.0, 22.0 ],
-					"text" : "clip 20 127"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 302.409649729728699, 426.50603985786438, 32.0, 22.0 ],
+					"patching_rect" : [ 302.409649729728699, 362.0, 32.0, 22.0 ],
 					"text" : "ftom"
 				}
 
@@ -712,7 +713,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-42", 0 ],
+					"destination" : [ "obj-5", 0 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -960,9 +961,16 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-153", 0 ],
+					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"order" : 0,
-					"source" : [ "obj-42", 0 ]
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -970,14 +978,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"order" : 1,
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-153", 0 ],
-					"source" : [ "obj-44", 0 ]
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
@@ -1017,7 +1018,7 @@
 
 			}
  ],
-		"originid" : "pat-88"
+		"originid" : "pat-120"
 	}
 
 }
