@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 40.0, 117.0, 1846.0, 997.0 ],
+		"rect" : [ -59.0, 87.0, 1846.0, 997.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -606,9 +606,23 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 84.0, 154.0, 1732.0, 961.0 ],
+						"rect" : [ 154.0, 154.0, 1732.0, 961.0 ],
 						"gridsize" : [ 15.0, 15.0 ],
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"linecount" : 14,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 3057.0, 1292.0, 50.0, 196.0 ],
+									"text" : "10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10. 10."
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-45",
 									"maxclass" : "newobj",
@@ -894,7 +908,7 @@
 									"patching_rect" : [ 2476.0, 568.0, 135.0, 22.0 ],
 									"restore" : 									{
 										"live.gain~" : [ 0.0 ],
-										"multislider" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+										"multislider" : [ 0.32686036141506, 0.218626278533469, 0.122391329916349, 0.173035369279301, 0.121816669997721, 0.090461308497775, 0.062456927655544, 0.044822894147597, 0.060710220686375, 0.06718603500374, 0.027168800803763, 0.010474041499821, 0.002734974633142, 0.00333207764218, 0.0, 0.0 ],
 										"multislider[1]" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
 										"number" : [ 10.0 ],
 										"number[10]" : [ 10.0 ],
@@ -904,66 +918,66 @@
 										"number[14]" : [ 10.0 ],
 										"number[15]" : [ 10.0 ],
 										"number[16]" : [ 1.0 ],
-										"number[17]" : [ 10 ],
-										"number[18]" : [ 5 ],
+										"number[17]" : [ 0 ],
+										"number[18]" : [ 10 ],
 										"number[1]" : [ 10.0 ],
-										"number[20]" : [ 30 ],
+										"number[20]" : [ 41 ],
 										"number[21]" : [ 10.0 ],
-										"number[22]" : [ 30 ],
+										"number[22]" : [ 27 ],
 										"number[23]" : [ 10.0 ],
-										"number[24]" : [ 30 ],
+										"number[24]" : [ 15 ],
 										"number[25]" : [ 10.0 ],
-										"number[26]" : [ 30 ],
-										"number[27]" : [ 30 ],
+										"number[26]" : [ 79 ],
+										"number[27]" : [ 21 ],
 										"number[28]" : [ 10.0 ],
-										"number[29]" : [ 1 ],
+										"number[29]" : [ 79 ],
 										"number[2]" : [ 10.0 ],
-										"number[30]" : [ 1 ],
-										"number[31]" : [ 30 ],
+										"number[30]" : [ 79 ],
+										"number[31]" : [ 15 ],
 										"number[32]" : [ 10.0 ],
-										"number[33]" : [ 30 ],
+										"number[33]" : [ 11 ],
 										"number[34]" : [ 10.0 ],
-										"number[35]" : [ 30 ],
+										"number[35]" : [ 7 ],
 										"number[36]" : [ 10.0 ],
-										"number[37]" : [ 1 ],
-										"number[38]" : [ 30 ],
+										"number[37]" : [ 79 ],
+										"number[38]" : [ 5 ],
 										"number[39]" : [ 10.0 ],
 										"number[3]" : [ 10.0 ],
-										"number[40]" : [ 1 ],
-										"number[41]" : [ 1 ],
-										"number[42]" : [ 1 ],
-										"number[43]" : [ 30 ],
+										"number[40]" : [ 79 ],
+										"number[41]" : [ 79 ],
+										"number[42]" : [ 79 ],
+										"number[43]" : [ 7 ],
 										"number[44]" : [ 10.0 ],
-										"number[45]" : [ 30 ],
+										"number[45]" : [ 8 ],
 										"number[46]" : [ 10.0 ],
-										"number[47]" : [ 30 ],
+										"number[47]" : [ 3 ],
 										"number[48]" : [ 10.0 ],
-										"number[49]" : [ 1 ],
+										"number[49]" : [ 79 ],
 										"number[4]" : [ 10.0 ],
-										"number[50]" : [ 30 ],
+										"number[50]" : [ 1 ],
 										"number[51]" : [ 10.0 ],
 										"number[52]" : [ 79 ],
-										"number[53]" : [ 79 ],
-										"number[54]" : [ 79 ],
-										"number[55]" : [ 79 ],
-										"number[56]" : [ 30 ],
+										"number[53]" : [ 20 ],
+										"number[54]" : [ 20 ],
+										"number[55]" : [ 20 ],
+										"number[56]" : [ 0 ],
 										"number[57]" : [ 10.0 ],
-										"number[58]" : [ 30 ],
+										"number[58]" : [ 0 ],
 										"number[59]" : [ 10.0 ],
 										"number[5]" : [ 10.0 ],
-										"number[60]" : [ 30 ],
+										"number[60]" : [ 0 ],
 										"number[61]" : [ 10.0 ],
-										"number[62]" : [ 79 ],
-										"number[63]" : [ 30 ],
+										"number[62]" : [ 20 ],
+										"number[63]" : [ 0 ],
 										"number[64]" : [ 10.0 ],
 										"number[6]" : [ 10.0 ],
 										"number[7]" : [ 10.0 ],
 										"number[8]" : [ 10.0 ],
 										"number[9]" : [ 10.0 ],
-										"speedlim" : [ 79 ],
-										"speedlim[1]" : [ 79 ],
-										"speedlim[2]" : [ 79 ],
-										"speedlim[3]" : [ 79 ]
+										"speedlim" : [ 40 ],
+										"speedlim[1]" : [ 50 ],
+										"speedlim[2]" : [ 50 ],
+										"speedlim[3]" : [ 50 ]
 									}
 ,
 									"text" : "autopattr @autoname 1",
@@ -3028,8 +3042,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2004.0, 592.0, 100.0, 22.0 ],
-									"text" : "scale 0. 1 30 127"
+									"patching_rect" : [ 2004.0, 592.0, 93.0, 22.0 ],
+									"text" : "scale 0. 1 0 127"
 								}
 
 							}
@@ -4815,6 +4829,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-275", 0 ],
+									"order" : 1,
+									"source" : [ "obj-274", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-36", 1 ],
+									"order" : 0,
 									"source" : [ "obj-274", 0 ]
 								}
 
@@ -6378,9 +6401,9 @@
 						"attrui[5]" : [ "detectionthreshold", -50.0 ],
 						"attrui[6]" : [ "latency", 2048 ],
 						"attrui[7]" : [ "topology", "butterworth" ],
-						"attrui[8]" : [ "frequency", 12000.0 ],
+						"attrui[8]" : [ "frequency", 14000.0 ],
 						"attrui[9]" : [ "order", 6 ],
-						"number[25]" : [ 3 ],
+						"number[25]" : [ 2 ],
 						"number[2]" : [ 5 ],
 						"number[3]" : [ 10 ],
 						"playlist~" : [ 							{
@@ -6390,7 +6413,7 @@
 											"filename" : "Text INPUT 0001 [2025-05-13 222515].wav",
 											"filekind" : "audiofile",
 											"id" : "u482001525",
-											"loop" : 0,
+											"loop" : 1,
 											"content_state" : 											{
 												"loop" : 0
 											}
@@ -6401,7 +6424,7 @@
 
 							}
  ],
-						"umenu" : [ 3 ]
+						"umenu" : [ 2 ]
 					}
 ,
 					"text" : "autopattr @autoname 1",
@@ -6491,7 +6514,7 @@
 								"filename" : "Text INPUT 0001 [2025-05-13 222515].wav",
 								"filekind" : "audiofile",
 								"id" : "u482001525",
-								"loop" : 0,
+								"loop" : 1,
 								"content_state" : 								{
 									"loop" : 0
 								}
@@ -7051,36 +7074,36 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MS_Audiotomidiplayerpiano.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/texttoaudiotomidi/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MS_Runningaverage16chsData.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/texttoaudiotomidi/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MS_RunningaverageBasic.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/texttoaudiotomidi/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MS_Speedlim.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/texttoaudiotomidi/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Text INPUT 0001 [2025-05-13 222515].wav",
-				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi",
-				"patcherrelativepath" : "../..",
+				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/media",
+				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
@@ -7090,15 +7113,8 @@
 			}
 , 			{
 				"name" : "presets.json",
-				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi",
-				"patcherrelativepath" : "../..",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "texttoaudiotomidi_updatemitalexbauer.maxpat",
-				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi_updatemitalexbauer/patchers",
-				"patcherrelativepath" : "../../../texttoaudiotomidi_updatemitalexbauer/patchers",
+				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/Markus Sepperer Chatpiano/20250514 Analyse SoundfileTextforMidi/texttoaudiotomidi/data",
+				"patcherrelativepath" : "../data",
 				"type" : "JSON",
 				"implicit" : 1
 			}
