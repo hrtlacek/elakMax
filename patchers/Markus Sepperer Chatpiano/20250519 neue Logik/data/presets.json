@@ -1,0 +1,119 @@
+{
+	"pattrstorage" : 	{
+		"name" : "basic",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"attrui" : [ "fftsettings", 2048, -1, -1 ],
+					"attrui[10]" : [ "response", "lowpass" ],
+					"attrui[1]" : [ "frequnit", 0 ],
+					"attrui[2]" : [ "magunit", 0 ],
+					"attrui[3]" : [ "order", 0 ],
+					"attrui[4]" : [ "numpeaks", 16 ],
+					"attrui[5]" : [ "detectionthreshold", -50.0 ],
+					"attrui[6]" : [ "latency", 2048 ],
+					"attrui[7]" : [ "topology", "butterworth" ],
+					"attrui[8]" : [ "frequency", 14000.0 ],
+					"attrui[9]" : [ "order", 6 ],
+					"number[25]" : [ 2 ],
+					"number[2]" : [ 5 ],
+					"number[3]" : [ 10 ],
+					"playlist~" : [ 						{
+							"data" : 							{
+								"clips" : [ 									{
+										"absolutepath" : "Text INPUT 0001 [2025-05-13 222515].wav",
+										"filename" : "Text INPUT 0001 [2025-05-13 222515].wav",
+										"filekind" : "audiofile",
+										"id" : "u482001525",
+										"loop" : 1,
+										"content_state" : 										{
+											"loop" : 0
+										}
+
+									}
+ ]
+							}
+
+						}
+ ],
+					"umenu" : [ 2 ],
+					"patcher::live.gain~" : [ 0.0 ],
+					"patcher::multislider" : [ 0.178092905519617, 0.146316891056214, 0.088645333383875, 0.082156794077111, 0.142444595324048, 0.121047612171629, 0.074728446890289, 0.053323232271777, 0.044901657808067, 0.041848971211674, 0.020902983753866, 0.010434242831588, 0.0, 0.0, 0.0, 0.0 ],
+					"patcher::multislider[1]" : [ 0.090963650304708, 0.050992958680704, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
+					"patcher::number" : [ 129.069676410684224 ],
+					"patcher::number[10]" : [ 10.0 ],
+					"patcher::number[11]" : [ 10.0 ],
+					"patcher::number[12]" : [ 10.0 ],
+					"patcher::number[13]" : [ 10.0 ],
+					"patcher::number[14]" : [ 10.0 ],
+					"patcher::number[15]" : [ 10.0 ],
+					"patcher::number[16]" : [ 1.0 ],
+					"patcher::number[17]" : [ 10 ],
+					"patcher::number[18]" : [ 5 ],
+					"patcher::number[1]" : [ 258.088996129699467 ],
+					"patcher::number[20]" : [ 38 ],
+					"patcher::number[21]" : [ 129.069676410684224 ],
+					"patcher::number[22]" : [ 28 ],
+					"patcher::number[23]" : [ 258.088996129699467 ],
+					"patcher::number[24]" : [ 0 ],
+					"patcher::number[25]" : [ 10.0 ],
+					"patcher::number[26]" : [ 40 ],
+					"patcher::number[27]" : [ 0 ],
+					"patcher::number[28]" : [ 10.0 ],
+					"patcher::number[29]" : [ 20 ],
+					"patcher::number[2]" : [ 10.0 ],
+					"patcher::number[30]" : [ 20 ],
+					"patcher::number[31]" : [ 0 ],
+					"patcher::number[32]" : [ 10.0 ],
+					"patcher::number[33]" : [ 0 ],
+					"patcher::number[34]" : [ 10.0 ],
+					"patcher::number[35]" : [ 0 ],
+					"patcher::number[36]" : [ 10.0 ],
+					"patcher::number[37]" : [ 20 ],
+					"patcher::number[38]" : [ 0 ],
+					"patcher::number[39]" : [ 10.0 ],
+					"patcher::number[3]" : [ 10.0 ],
+					"patcher::number[40]" : [ 20 ],
+					"patcher::number[41]" : [ 20 ],
+					"patcher::number[42]" : [ 20 ],
+					"patcher::number[43]" : [ 0 ],
+					"patcher::number[44]" : [ 10.0 ],
+					"patcher::number[45]" : [ 0 ],
+					"patcher::number[46]" : [ 10.0 ],
+					"patcher::number[47]" : [ 0 ],
+					"patcher::number[48]" : [ 10.0 ],
+					"patcher::number[49]" : [ 20 ],
+					"patcher::number[4]" : [ 10.0 ],
+					"patcher::number[50]" : [ 0 ],
+					"patcher::number[51]" : [ 10.0 ],
+					"patcher::number[53]" : [ 10 ],
+					"patcher::number[54]" : [ 10 ],
+					"patcher::number[55]" : [ 10 ],
+					"patcher::number[56]" : [ 0 ],
+					"patcher::number[57]" : [ 10.0 ],
+					"patcher::number[58]" : [ 0 ],
+					"patcher::number[59]" : [ 10.0 ],
+					"patcher::number[5]" : [ 10.0 ],
+					"patcher::number[60]" : [ 0 ],
+					"patcher::number[61]" : [ 10.0 ],
+					"patcher::number[62]" : [ 10 ],
+					"patcher::number[63]" : [ 0 ],
+					"patcher::number[64]" : [ 10.0 ],
+					"patcher::number[6]" : [ 10.0 ],
+					"patcher::number[7]" : [ 10.0 ],
+					"patcher::number[8]" : [ 10.0 ],
+					"patcher::number[9]" : [ 10.0 ],
+					"patcher::speedlim" : [ 20 ],
+					"patcher::speedlim[1]" : [ 40 ],
+					"patcher::speedlim[2]" : [ 40 ],
+					"patcher::speedlim[3]" : [ 40 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}

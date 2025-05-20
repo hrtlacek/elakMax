@@ -1,8 +1,8 @@
 {
-	"name" : "texttoaudiotomidi",
+	"name" : "20250519 neue Logik",
 	"version" : 1,
-	"creationdate" : 3830527207,
-	"modificationdate" : 3830527208,
+	"creationdate" : 3830528749,
+	"modificationdate" : 3830528749,
 	"viewrect" : [ 0.0, 0.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -10,11 +10,19 @@
 	"autolocalize" : 0,
 	"contents" : 	{
 		"patchers" : 		{
-			"texttoaudiotomidi.maxpat" : 			{
+			"20250519 neue Logik.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
 			}
+
+		}
+,
+		"media" : 		{
+
+		}
+,
+		"data" : 		{
 
 		}
 ,

@@ -45,7 +45,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "float" ],
 					"patching_rect" : [ 512.0, 314.0, 30.0, 30.0 ]
 				}
 
@@ -87,7 +87,7 @@
 
 			}
  ],
-		"originid" : "pat-804"
+		"originid" : "pat-1240"
 	}
 
 }

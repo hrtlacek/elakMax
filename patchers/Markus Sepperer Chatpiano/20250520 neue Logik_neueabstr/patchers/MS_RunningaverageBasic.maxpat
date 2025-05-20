@@ -26,20 +26,20 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1514.0, 665.0, 50.0, 20.0 ],
-					"text" : "0.523766"
+					"text" : "0.300506"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-5",
-					"linecount" : 3,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1445.0, 573.0, 50.0, 31.0 ],
-					"text" : "0.05421 0.05421 0.05421 0.05421 0.05421 0.05421 0.05421 0.048098 0.048098 0.048098"
+					"text" : "0.04299 0.064379 0.064379 0.064379 0.064379"
 				}
 
 			}
@@ -242,7 +242,7 @@
 
 			}
  ],
-		"originid" : "pat-949",
+		"originid" : "pat-230",
 		"styles" : [ 			{
 				"name" : "Sepperer",
 				"default" : 				{
