@@ -1,0 +1,1 @@
+ Hallo, ich melde mich live aus der Setup Zentrale für die JetGPT Piano Startup Phase. Ich habe jetzt 30 Sekunden Audio zur Verfügung, es läuft ein Python Script. Das sagt, ich sprich jetzt und das sollte mir jetzt auch im Hintergrund des Audio-Analysen.
