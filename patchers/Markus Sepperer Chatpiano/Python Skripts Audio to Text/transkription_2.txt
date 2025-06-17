@@ -1,1 +1,0 @@
-Ok, ich spreche jetzt einen neuen Test ein, der zum Ziel hat, dass wir Audio aufnehmen, in Text übersetzen und das Ganze dann mit der Computerstimme vom Mac OS System wieder ausgeben. JetGPT sagt, das ist erstmal eine einfache, unkomplizierte Lösung und hat mir auch schon weitere Optionen vorgeschlagen.
