@@ -1,0 +1,34 @@
+{
+	"pattrstorage" : 	{
+		"name" : "pl.mc.mbcomphelp",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand::attack" : [ 47.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand::knee" : [ 0.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand::makeup" : [ 3.7 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand::ratio" : [ 64.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand::release" : [ 50.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand::thresh" : [ -18.695652173913043 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[1]::attack" : [ 47.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[1]::knee" : [ 0.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[1]::makeup" : [ 0.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[1]::ratio" : [ 290.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[1]::release" : [ 8.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[1]::thresh" : [ -41.304347826086953 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[2]::attack" : [ 20.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[2]::knee" : [ 22.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[2]::makeup" : [ 5.1 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[2]::ratio" : [ 217.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[2]::release" : [ 30.0 ],
+					"pl.mc.multibandCompressor::pl._mc.multiBand_oneBand[2]::thresh" : [ -43.913043478260867 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
