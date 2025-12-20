@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 9,
 			"minor" : 0,
-			"revision" : 3,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 106.0, 1000.0, 691.0 ],
+		"rect" : [ 134.0, 134.0, 1852.0, 921.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
@@ -19,7 +19,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 167.0, 445.0, 92.0, 22.0 ],
+					"patching_rect" : [ 37.0, 402.0, 92.0, 22.0 ],
 					"text" : "mc.mixdown~ 1"
 				}
 
@@ -125,7 +125,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 37.0, 85.0, 613.0, 327.0 ],
+					"patching_rect" : [ 37.0, 85.0, 563.0, 221.0 ],
 					"varname" : "pl.mc.multibandCompressor",
 					"viewvisibility" : 1
 				}
@@ -163,10 +163,10 @@
 
 			}
  ],
-		"originid" : "pat-86",
 		"parameters" : 		{
 			"obj-1::obj-22" : [ "Freq Low", "Freq Low", 0 ],
 			"obj-1::obj-23" : [ "Freq High", "Freq High", 0 ],
+			"obj-1::obj-34" : [ "DryWet", "DryWet", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -186,6 +186,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "el.LR4Coeffs.gendsp",
+				"bootpath" : "~/Documents/Max 9/Packages/elakMax/code",
+				"patcherrelativepath" : "../code",
+				"type" : "gDSP",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "gaincomputer.gendsp",
 				"bootpath" : "~/Documents/Max 9/Packages/plMax/code",
 				"patcherrelativepath" : "../../plMax/code",
@@ -196,13 +203,6 @@
 				"name" : "pd.branching.gendsp",
 				"bootpath" : "~/Documents/Max 9/Packages/plMax/code",
 				"patcherrelativepath" : "../../plMax/code",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "pl.RK4Coeffs.gendsp",
-				"bootpath" : "~/Documents/Max 9/Packages/elakMax/code",
-				"patcherrelativepath" : "../code",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
