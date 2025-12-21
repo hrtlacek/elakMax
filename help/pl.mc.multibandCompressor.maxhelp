@@ -10,9 +10,88 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1954.0, 77.0, 1462.0, 921.0 ],
+		"rect" : [ 134.0, 134.0, 1462.0, 921.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 303.0, 27.0, 431.0, 20.0 ],
+					"text" : "Allows ratios < 0 to do expansion. Be careful around ratio ==0...."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "FemVoice.aif",
+								"filename" : "FemVoice.aif",
+								"filekind" : "audiofile",
+								"id" : "u493007770",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 1,
+								"content_state" : 								{
+									"loop" : 1
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-19",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 87.0, 44.0, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"quality" : "basic",
+					"saved_attribute_attributes" : 					{
+						"candicane2" : 						{
+							"expression" : ""
+						}
+,
+						"candicane3" : 						{
+							"expression" : ""
+						}
+,
+						"candicane4" : 						{
+							"expression" : ""
+						}
+,
+						"candicane5" : 						{
+							"expression" : ""
+						}
+,
+						"candicane6" : 						{
+							"expression" : ""
+						}
+,
+						"candicane7" : 						{
+							"expression" : ""
+						}
+,
+						"candicane8" : 						{
+							"expression" : ""
+						}
+
+					}
+,
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bubble" : 1,
 					"id" : "obj-17",
@@ -376,7 +455,7 @@
 					"numoutlets" : 1,
 					"octavesmooth" : 0.1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 53.0, 532.0, 400.0, 160.0 ]
+					"patching_rect" : [ 87.0, 501.0, 400.0, 160.0 ]
 				}
 
 			}
@@ -565,14 +644,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-4", 1 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 1 ],
+					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -616,9 +695,21 @@
 			"obj-14::obj-22" : [ "Freq Low[1]", "Freq Low", 0 ],
 			"obj-14::obj-23" : [ "Freq High[1]", "Freq High", 0 ],
 			"obj-14::obj-34" : [ "DryWet[1]", "DryWet", 0 ],
+			"obj-14::obj-39::obj-10" : [ "live.dial[8]", "Time", 0 ],
+			"obj-14::obj-39::obj-11" : [ "live.dial[6]", "ExpLow", 0 ],
+			"obj-14::obj-39::obj-22" : [ "live.dial[7]", "ExpHi", 0 ],
+			"obj-14::obj-43::obj-10" : [ "live.dial[11]", "Time", 0 ],
+			"obj-14::obj-43::obj-11" : [ "live.dial[10]", "ExpLow", 0 ],
+			"obj-14::obj-43::obj-22" : [ "live.dial[9]", "ExpHi", 0 ],
 			"obj-1::obj-22" : [ "Freq Low", "Freq Low", 0 ],
 			"obj-1::obj-23" : [ "Freq High", "Freq High", 0 ],
 			"obj-1::obj-34" : [ "DryWet", "DryWet", 0 ],
+			"obj-1::obj-39::obj-10" : [ "live.dial", "Time", 0 ],
+			"obj-1::obj-39::obj-11" : [ "live.dial[1]", "ExpLow", 0 ],
+			"obj-1::obj-39::obj-22" : [ "live.dial[2]", "ExpHi", 0 ],
+			"obj-1::obj-43::obj-10" : [ "live.dial[5]", "Time", 0 ],
+			"obj-1::obj-43::obj-11" : [ "live.dial[3]", "ExpLow", 0 ],
+			"obj-1::obj-43::obj-22" : [ "live.dial[4]", "ExpHi", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -640,6 +731,43 @@
 				"obj-14::obj-34" : 				{
 					"parameter_longname" : "DryWet[1]"
 				}
+,
+				"obj-14::obj-39::obj-10" : 				{
+					"parameter_longname" : "live.dial[8]"
+				}
+,
+				"obj-14::obj-39::obj-11" : 				{
+					"parameter_longname" : "live.dial[6]"
+				}
+,
+				"obj-14::obj-39::obj-22" : 				{
+					"parameter_longname" : "live.dial[7]"
+				}
+,
+				"obj-14::obj-43::obj-10" : 				{
+					"parameter_longname" : "live.dial[11]"
+				}
+,
+				"obj-14::obj-43::obj-11" : 				{
+					"parameter_longname" : "live.dial[10]"
+				}
+,
+				"obj-14::obj-43::obj-22" : 				{
+					"parameter_longname" : "live.dial[9]"
+				}
+,
+				"obj-1::obj-43::obj-10" : 				{
+					"parameter_initial" : 30,
+					"parameter_longname" : "live.dial[5]"
+				}
+,
+				"obj-1::obj-43::obj-11" : 				{
+					"parameter_longname" : "live.dial[3]"
+				}
+,
+				"obj-1::obj-43::obj-22" : 				{
+					"parameter_longname" : "live.dial[4]"
+				}
 
 			}
 ,
@@ -647,6 +775,19 @@
 		}
 ,
 		"dependency_cache" : [ 			{
+				"name" : "FemVoice.aif",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/samples",
+				"type" : "AIFF",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "_multibandAttRelGui.maxpat",
+				"bootpath" : "~/Documents/Max 9/Packages/elakMax/patchers/pl",
+				"patcherrelativepath" : "../patchers/pl",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "drumLoop.aif",
 				"bootpath" : "C74:/media/msp",
 				"type" : "AIFF",
