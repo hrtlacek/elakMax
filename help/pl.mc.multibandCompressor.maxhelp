@@ -10,18 +10,33 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 134.0, 134.0, 1452.0, 921.0 ],
+		"rect" : [ 134.0, 85.0, 1151.0, 905.0 ],
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-39",
-					"linecount" : 3,
+					"bubble" : 1,
+					"bubbleside" : 3,
+					"id" : "obj-40",
+					"linecount" : 5,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 88.0, 20.0, 431.0, 48.0 ],
-					"presentation_linecount" : 3,
-					"text" : "Multiband multichannel Compressor.\nDesigned with efficiency in mind (e.g. filter coefficients for crossover are not calculated in audio rate.)"
+					"patching_rect" : [ 110.0, 372.0, 153.0, 79.0 ],
+					"presentation_linecount" : 5,
+					"text" : "Changing crossover Frequencies causes artifacts.\nThis is left for efficiency reasons."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 88.0, 5.0, 543.0, 75.0 ],
+					"presentation_linecount" : 7,
+					"text" : "Multiband multichannel Compressor.\nHas a flat frequency response as its designed using pl.mc.LR4~.  Compressor based on \"Giannoulis, Dimitrios, Michael Massberg, and Joshua D. Reiss. \"Digital dynamic range compressor design—A tutorial and analysis.\" Journal of the audio engineering society 60.6 (2012): 399-408.\"\nDesigned with efficiency in mind (e.g. filter coefficients for crossover are not calculated in audio rate.)"
 				}
 
 			}
@@ -639,6 +654,7 @@
 					"bufsize" : 256,
 					"calccount" : 2,
 					"fgcolor" : [ 0.952941176470588, 0.619607843137255, 0.619607843137255, 1.0 ],
+					"gridcolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 0.2 ],
 					"id" : "obj-16",
 					"maxclass" : "scope~",
 					"numinlets" : 2,
@@ -651,6 +667,7 @@
 				"box" : 				{
 					"bufsize" : 256,
 					"calccount" : 2,
+					"gridcolor" : [ 0.219607843137255, 0.219607843137255, 0.219607843137255, 0.2 ],
 					"id" : "obj-13",
 					"maxclass" : "scope~",
 					"numinlets" : 2,
@@ -820,7 +837,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
+					"bgmode" : 1,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
@@ -834,7 +851,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 265.0, 300.0, 640.0, 233.0 ],
+					"patching_rect" : [ 265.0, 300.0, 640.0, 225.0 ],
 					"varname" : "pl.mc.multibandCompressor",
 					"viewvisibility" : 1
 				}
@@ -1007,14 +1024,14 @@
 			"obj-14::obj-22" : [ "Freq Low[1]", "Freq Low", 0 ],
 			"obj-14::obj-23" : [ "Freq High[1]", "Freq High", 0 ],
 			"obj-14::obj-34" : [ "DryWet[1]", "DryWet", 0 ],
-			"obj-14::obj-39::obj-10" : [ "live.dial[8]", "Time", 0 ],
+			"obj-14::obj-39::obj-10" : [ "live.dial[6]", "Time", 0 ],
 			"obj-14::obj-39::obj-11" : [ "live.dial[7]", "ExpLow", 0 ],
-			"obj-14::obj-39::obj-22" : [ "live.dial[6]", "ExpHi", 0 ],
+			"obj-14::obj-39::obj-22" : [ "live.dial[8]", "ExpHi", 0 ],
 			"obj-14::obj-43::obj-10" : [ "live.dial[9]", "Time", 0 ],
 			"obj-14::obj-43::obj-11" : [ "live.dial[10]", "ExpLow", 0 ],
 			"obj-14::obj-43::obj-22" : [ "live.dial[13]", "ExpHi", 0 ],
-			"obj-14::obj-44" : [ "Gain[5]", "Gain", 0 ],
-			"obj-14::obj-45" : [ "Gain[4]", "Gain", 0 ],
+			"obj-14::obj-44" : [ "Gain[4]", "Gain", 0 ],
+			"obj-14::obj-45" : [ "Gain[5]", "Gain", 0 ],
 			"obj-14::obj-46" : [ "Gain[3]", "Gain", 0 ],
 			"obj-14::obj-59" : [ "live.dial[14]", "Gain", 0 ],
 			"obj-14::obj-70" : [ "OutGain[1]", "OutGain", 0 ],
@@ -1057,7 +1074,7 @@
 				}
 ,
 				"obj-14::obj-39::obj-10" : 				{
-					"parameter_longname" : "live.dial[8]"
+					"parameter_longname" : "live.dial[6]"
 				}
 ,
 				"obj-14::obj-39::obj-11" : 				{
@@ -1065,7 +1082,7 @@
 				}
 ,
 				"obj-14::obj-39::obj-22" : 				{
-					"parameter_longname" : "live.dial[6]"
+					"parameter_longname" : "live.dial[8]"
 				}
 ,
 				"obj-14::obj-43::obj-10" : 				{
@@ -1081,11 +1098,11 @@
 				}
 ,
 				"obj-14::obj-44" : 				{
-					"parameter_longname" : "Gain[5]"
+					"parameter_longname" : "Gain[4]"
 				}
 ,
 				"obj-14::obj-45" : 				{
-					"parameter_longname" : "Gain[4]"
+					"parameter_longname" : "Gain[5]"
 				}
 ,
 				"obj-14::obj-46" : 				{
