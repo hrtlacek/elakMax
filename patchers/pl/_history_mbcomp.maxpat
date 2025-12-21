@@ -112,9 +112,9 @@
 					"numoutlets" : 1,
 					"numpoints" : 100,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 493.658548355102539, 292.682933807373047, 185.36585807800293, 90.731709480285645 ],
+					"patching_rect" : [ 494.0, 293.0, 80.658548355102539, 87.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.439024448394775, 0.914634168148041, 83.536587357521057, 67.987806499004364 ],
+					"presentation_rect" : [ 2.0, 1.0, 55.0, 68.0 ],
 					"saved_attribute_attributes" : 					{
 						"bgcolor" : 						{
 							"expression" : "themecolor.live_lcd_bg"
@@ -123,7 +123,7 @@
 					}
 ,
 					"subplots" : [ 						{
-							"color" : [ 0.800000011920929, 0.271875202655792, 0.150000005960464, 1.0 ],
+							"color" : [ 0.600000023841858, 0.203906401991844, 0.112499997019768, 1.0 ],
 							"thickness" : 1.700000047683716,
 							"point_style" : "none",
 							"line_style" : "linear",
