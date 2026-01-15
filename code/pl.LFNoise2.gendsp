@@ -1,0 +1,48 @@
+{
+    "patcher": {
+        "fileversion": 1,
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 2,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "dsp.gen",
+        "rect": [ 617.0, 66.0, 1256.0, 940.0 ],
+        "boxes": [
+            {
+                "box": {
+                    "code": "// pl 2026,\r\n// essentially a copy of supercollider's LFnoise2, a cubic interpolation of random values.\r\n// see https://github.com/supercollider/supercollider/blob/03ebbae30fd020f8c14cb51c66595409e8b3890f/server/plugins/NoiseUGens.cpp#L105\r\n\r\nHistory x(0);\r\nHistory dx(0);\r\nHistory ddx(0);\r\n\r\nHistory nextMid(0);\r\nHistory nextX(0);\r\nHistory counter(0);\r\n\r\nParam freq(1);\r\n\r\nsr = samplerate;\r\n\r\nif (counter<=0){\r\n    counter = int(sr / max(freq, 0.0001));\r\n    counter = max(2, counter);\r\n    \r\n    val = nextX;\r\n    nextX = noise();\r\n    x = nextMid;\r\n    \r\n    nextMid = (nextX + val) * 0.5;\r\n    \r\n    fseglen = float(counter);\r\n    ddx = 2 * (nextMid - x - fseglen * dx) / (fseglen * fseglen + fseglen);\r\n    \r\n    };\r\ndx = dx+ddx;\r\nx = x+dx;\r\ncounter-=1;\r\n\r\nout1 = x;",
+                    "fontface": 0,
+                    "fontname": "<Monospaced>",
+                    "fontsize": 12.0,
+                    "id": "obj-6",
+                    "maxclass": "codebox",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "patching_rect": [ 49.5726500749588, 14.529914677143097, 959.8290695548058, 558.9743646383286 ]
+                }
+            },
+            {
+                "box": {
+                    "id": "obj-4",
+                    "maxclass": "newobj",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 49.5726500749588, 618.8034250736237, 35.0, 22.0 ],
+                    "text": "out 1"
+                }
+            }
+        ],
+        "lines": [
+            {
+                "patchline": {
+                    "destination": [ "obj-4", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            }
+        ]
+    }
+}
