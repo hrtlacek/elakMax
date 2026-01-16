@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 1002.0, 66.0, 871.0, 940.0 ],
+        "rect": [ 1002.0, 66.0, 397.0, 940.0 ],
         "boxes": [
             {
                 "box": {
@@ -48,7 +48,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-7",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "inlet",
                     "numinlets": 0,
                     "numoutlets": 1,
@@ -60,7 +60,7 @@
                 "box": {
                     "comment": "",
                     "id": "obj-5",
-                    "index": 0,
+                    "index": 1,
                     "maxclass": "outlet",
                     "numinlets": 1,
                     "numoutlets": 0,
@@ -96,8 +96,8 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "", "" ],
-                    "patching_rect": [ 373.0, 277.0, 169.0, 22.0 ],
-                    "text": "patcherargs 1 @harmonics 15"
+                    "patching_rect": [ 373.0, 277.0, 163.0, 22.0 ],
+                    "text": "patcherargs 1 @harmonics 5"
                 }
             },
             {
@@ -194,7 +194,6 @@
                     "source": [ "obj-9", 1 ]
                 }
             }
-        ],
-        "autosave": 0
+        ]
     }
 }
