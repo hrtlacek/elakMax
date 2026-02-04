@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml-stylesheet href="./_c74_ref.xsl" type="text/xsl"?>
+
+<c74object name="pl.valueNoise~" module="elakMax">
+
+	<digest>
+	Value Noise generator.
+	</digest>
+
+	<description>
+	Value Noise based on quadratically interpolated noise.
+	</description>
+
+	<!--METADATA-->
+	<metadatalist>
+		<metadata name="author">Patrik Lechner</metadata>
+		<metadata name="tag">pl</metadata>
+		<metadata name="tag">pl objects</metadata>
+		<metadata name="tag">noise</metadata>
+		<metadata name="tag">value noise</metadata>
+	</metadatalist>
+
+	<!--INLETS-->
+	<inletlist>
+		<inlet id="0" type="INLET_TYPE">
+			<digest>
+				Frequency
+			</digest>
+			<description>
+			</description>
+		</inlet>
+	</inletlist>
+
+	<!--OUTLETS-->
+	<outletlist>
+		<outlet id="0" type="INLET_TYPE">
+			<digest>
+				Values
+			</digest>
+			<description>
+			</description>
+		</outlet>
+	</outletlist>
+
+	<!--ARGUMENTS-->
+	<objarglist>
+		<objarg name="Frequency" optional="1" type="float">
+			<digest>
+			Base Frequency
+			</digest>
+			<description>
+			A float that specifies the fundamental frequency of the noise.
+			</description>
+		</objarg>
+	</objarglist>
+
+	<!--Attributes-->
+	<attributelist>
+
+		<attribute name="chans" get="1" set="1" type="int" size="1">
+			<digest>
+				Number of mc channels.
+			</digest>
+			<description>
+				Number of mc channels.
+			</description>
+			<attributelist>
+				<attribute name="default" get="1" set="1" type="int" size="1" value="15" />
+				<attribute name="label" get="1" set="1" type="symbol" size="1" value="chans" />
+				<attribute name="style" get="1" set="1" type="symbol" size="1" value="enumindex" />
+			</attributelist>
+		</attribute>
+
+
+	</attributelist>
+
+
+
+	<!--MESSAGES-->
+	<methodlist>
+		<method name="Nothing.">
+			<arglist />
+			<digest>
+			</digest>
+			<description>
+			</description>
+		</method>
+	</methodlist>
+
+	<!--DISCUSSION-->
+	<discussion>
+	</discussion>
+
+	<!--SEEALSO-->
+	<seealsolist>
+		<seealso name="pl.mc.valueNoise~" />
+		<seealso name="pl.fractalNoise~" />
+	</seealsolist>
+
+	<misc name = "Input">
+		<entry name ="Inlet 1, Frequency">
+			<description>
+				Frequency.
+			</description>
+		</entry>
+	</misc>
+
+	<misc name = "Output">
+		<entry name ="Outlet 1">
+			<description>
+				Noise Output.
+			</description>
+		</entry>
+	</misc>
+
+	<misc name = "Discussion">
+		<entry name ="More details">
+			<description>
+			</description>
+		</entry>
+		<entry name ="Keywords">
+			<description>
+				pl, noise
+			</description>
+		</entry>
+	</misc>
+
+</c74object>
