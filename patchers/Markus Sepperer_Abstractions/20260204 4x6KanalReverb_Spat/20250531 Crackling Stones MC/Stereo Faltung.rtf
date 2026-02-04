@@ -1,0 +1,64 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2821
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Bold;\f1\froman\fcharset0 Times-Roman;\f2\fmodern\fcharset0 Courier;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sa298\partightenfactor0
+
+\f0\b\fs36 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Warum braucht man 4 Impulsantworten f\'fcr Stereo-Faltung?\
+\pard\pardeftab720\sa240\partightenfactor0
+
+\f1\b0\fs24 \cf0 In einer 
+\f0\b stereo Convolution
+\f1\b0  verarbeitest du 
+\f0\b zwei Eingangskan\'e4le (L und R)
+\f1\b0  und erzeugst 
+\f0\b zwei Ausgangskan\'e4le (L und R)
+\f1\b0 .\uc0\u8232 
+\f0\b Jeder Eingangskanal kann zu jedem Ausgangskanal beitragen
+\f1\b0  \'96 also:\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs26 \cf0 \
+          Eingang\
+         L       R\
+         \uc0\u8595        \u8595 \
+       \uc0\u8601            \u8600 \
+     L out        R out\
+\
+Das ergibt vier Signalpfade, und damit auch vier Impulsantworten:\
+Von (Eingang)	Nach (Ausgang)	Impulsantwort-Buffer\
+Left	Left	IR_L\uc0\u8594 L\
+Left	Right	IR_L\uc0\u8594 R\
+Right	Left	IR_R\uc0\u8594 L\
+Right	Right	IR_R\uc0\u8594 R\
+\uc0\u55356 \u57242  Beispiel:\
+\
+Wenn du ein Stereomikrofon benutzt hast, um eine Hall-Umgebung aufzunehmen, dann hast du zwei Eingangskan\'e4le. Ein reales Stereo-Reverb (Raumantwort) enth\'e4lt nicht nur, was "L auf L" macht, sondern auch wie L sich auf R auswirkt \'96 also die Interchannel-\'dcbersprechung (Crossfeed, Cross-Talk).\
+\uc0\u55358 \u56800  Merksatz:\
+\
+    "Stereo in \uc0\u8594  Stereo out" braucht 4 Impulsantworten, weil jedes In-Signal zu jedem Out-Signal beitr\'e4gt.\
+\
+\uc0\u55357 \u56615  In Max/MSP:\
+\
+Wenn du z.\uc0\u8239 B. [mc.convolution~ 2 2] verwendest, gibst du vier Buffernamen an:\
+\
+[mc.convolution~ 2 2 buf_LL buf_LR buf_RL buf_RR]\
+\
+Das entspricht:\
+\
+    Left In \uc0\u8594  Left Out\
+\
+    Left In \uc0\u8594  Right Out\
+\
+    Right In \uc0\u8594  Left Out\
+\
+    Right In \uc0\u8594  Right Out\
+\
+Wenn du nur 2 Buffers h\'e4ttest, w\'fcrdest du nur direkte Kan\'e4le (L\uc0\u8594 L, R\u8594 R) ber\'fccksichtigen und der r\'e4umliche Effekt (z.\u8239 B. Stereo-Hall) w\'e4re unvollst\'e4ndig.\
+\
+M\'f6chtest du ein praktisches Patch-Beispiel dazu oder eine grafische Darstellung?\
+}
